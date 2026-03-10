@@ -12,7 +12,7 @@ pipeline {
 
         stage('Cloning Git') {
             steps {
-                  git branch: 'main', url: 'https://github.com/VendeTT1/tp5-devops'
+                  git 'https://github.com/VendeTT1/tp5-devops'
             }
         }
 
