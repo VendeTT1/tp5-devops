@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         registry = "vendett1/jenkins"
-        registryCredential = "dockerhub"
+        registryCredential = "docker"
         dockerImage = ""
     }
 
